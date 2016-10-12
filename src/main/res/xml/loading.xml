@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+        android:keyWidth="100%p"
+        android:keyHeight="150px">
+
+<Row>
+    <Key android:keyLabel="Loading data..."/>
+</Row>
+</Keyboard>

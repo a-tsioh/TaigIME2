@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="imeFont">#d0daff</color>
+    <color name="imeBackground">#d8ffc2</color>
+    <color name="colorPrimary">#32439e</color>
+    <color name="colorPrimaryDark">#e45757</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="foreground_material_light">#fa62fc</color>
+    <color name="background_material_light">#d2d879</color>
+    <color name="primary_dark_material_light">#ff921d</color>
+</resources>

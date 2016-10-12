@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TaigIME2</string>
+    <string name="app_name_hanji">臺語輸入法2</string>
+    <string name="spellchecker_name">TaigIME2</string>
+    <string name="subtype_generic">subt_gen</string>
+    <string name="label_english">英文</string><string name="label_chinese">中文</string><string name="label_simplified">速成</string>
+    <string name="loadingMessage">安裝資料中，請稍候</string>
+</resources>

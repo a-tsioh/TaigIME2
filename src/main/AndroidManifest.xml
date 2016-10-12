@@ -1,0 +1,46 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="fr.magistry.taigime2"
+        android:versionCode="35"
+        android:versionName="1.9.4">
+
+    <uses-sdk
+            android:minSdkVersion="21"
+            android:targetSdkVersion="23"/>
+
+    <application android:allowBackup="true"
+                 android:label="@string/spellchecker_name"
+                 android:icon="@mipmap/ic_launcher"
+                 android:supportsRtl="true" >
+                 <!-- android:theme="@style/AppTheme" -->
+
+
+        <service android:name="fr.magistry.taigime2.ImeService"
+                 android:label="@string/app_name_hanji"
+                 android:permission="android.permission.BIND_INPUT_METHOD">
+            <intent-filter>
+                <action android:name="android.view.InputMethod" />
+            </intent-filter>
+            <meta-data android:name="android.view.im"
+                       android:resource="@xml/method" />
+        </service>
+        <!--
+        <service android:name="fr.magistry.taigime2.TaigiSpellCheckerService"
+                 android:permission="android.permission.BIND_TEXT_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.textservice.SpellCheckerService" />
+            </intent-filter>
+            <meta-data android:name="android.view.textservice.scs" android:resource="@xml/spellchecker"/>
+
+        </service>
+        -->
+        <activity android:name="fr.magistry.taigime2.TextEditor"
+                android:icon="@drawable/ic_launcher"
+                android:label="@string/app_name_hanji">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright 2010 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="@dimen/key_height_zhuyin"
+          android:keyBackground="@drawable/key_normal"
+          android:background="@drawable/keyboard_background"
+    >
+    
+    <Row>
+        <Key android:codes="12549" android:keyLabel="ㄅ" android:keyEdgeFlags="left"
+            android:popupCharacters="1" />
+        <Key android:codes="12553" android:keyLabel="ㄉ"
+            android:popupCharacters="2" />
+        <Key android:codes="12557" android:keyLabel="ㄍ"
+            android:popupCharacters="3" />
+        <Key android:codes="12560" android:keyLabel="ㄐ"
+            android:popupCharacters="4" />
+        <Key android:codes="12567" android:keyLabel="ㄗ"
+            android:popupCharacters="6" />
+        <Key android:codes="12587" android:keyLabel="ㄫ"
+            android:popupCharacters="7" />
+        <Key android:codes="12570" android:keyLabel="ㄚ"
+            android:popupCharacters="8" />
+        <Key android:codes="12713" android:keyLabel="ㆩ"
+             android:popupCharacters="5" />
+        <Key android:codes="12574" android:keyLabel="ㄞ"
+            android:popupCharacters="9" />
+        <Key android:codes="12578" android:keyLabel="ㄢ" android:keyEdgeFlags="right"
+            android:popupCharacters="0" />
+    </Row>
+
+    <Row>
+        <Key android:codes="12704" android:keyLabel="ㆠ" android:keyEdgeFlags="left"/>
+        <Key android:codes="12554" android:keyLabel="ㄊ"/>
+        <Key android:codes="12707" android:keyLabel="ㆣ"/>
+        <Key android:codes="12706" android:keyLabel="ㆢ"/>
+        <Key android:codes="12705" android:keyLabel="ㆡ"/>
+        <Key android:codes="12583" android:keyLabel="ㄧ"/>
+        <Key android:codes="12571" android:keyLabel="ㄛ"/>
+        <Key android:codes="12711" android:keyLabel="ㆧ"/>
+        <Key android:codes="12719" android:keyLabel="ㆮ"/>
+        <Key android:codes="12579" android:keyLabel="ㄣ" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="12550" android:keyLabel="ㄆ" android:keyEdgeFlags="left"/>
+        <Key android:codes="12555" android:keyLabel="ㄋ"/>
+        <Key android:codes="12558" android:keyLabel="ㄎ"/>
+        <Key android:codes="12561" android:keyLabel="ㄑ"/>
+        <Key android:codes="12568" android:keyLabel="ㄘ"/>
+        <Key android:codes="12584" android:keyLabel="ㄨ"/>
+        <Key android:codes="12572" android:keyLabel="ㄜ"/>
+        <Key android:codes="12715" android:keyLabel="ㆫ"/>
+        <Key android:codes="12576" android:keyLabel="ㄠ"/>
+        <Key android:codes="12580" android:keyLabel="ㄤ" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="12551" android:keyLabel="ㄇ" android:keyEdgeFlags="left"/>
+        <Key android:codes="12556" android:keyLabel="ㄌ"/>
+        <Key android:codes="12559" android:keyLabel="ㄏ"/>
+        <Key android:codes="12562" android:keyLabel="ㄒ"/>
+        <Key android:codes="12569" android:keyLabel="ㄙ"/>
+        <Key android:codes="12714" android:keyLabel="ㆪ"/>
+        <Key android:codes="12573" android:keyLabel="ㄝ"/>
+        <Key android:codes="12709" android:keyLabel="ㆥ"/>
+        <Key android:codes="12719" android:keyLabel="ㆯ"/>
+        <Key android:codes="12581" android:keyLabel="ㄥ" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row android:rowEdgeFlags="bottom" android:keyHeight="@dimen/key_height_bottom_row" >
+        <Key android:codes="-200" android:keyLabel="@string/label_english" android:keyWidth="14%p"/>
+        <Key android:codes="-2" android:keyLabel="123" android:keyWidth="14%p"/>
+        <Key android:codes="12290" android:keyWidth="12%p"
+                android:keyIcon="@drawable/period_icon"
+                android:iconPreview="@drawable/period_popup_icon"
+                android:popupKeyboard="@xml/popup_punctuation_ch"/>
+        <Key android:codes="32" android:keyIcon="@drawable/space_icon"
+                android:keyWidth="20%p" android:isRepeatable="true"/>
+        <Key android:codes="45" android:keyLabel="-"/>
+        <Key android:codes="-5" android:keyIcon="@drawable/delete_icon"
+                android:keyWidth="15%p" android:isRepeatable="true"/>
+        <Key android:codes="10" android:keyIcon="@drawable/enter_icon"
+                android:keyWidth="15%p" android:keyEdgeFlags="right"/>
+    </Row>
+
+</Keyboard>

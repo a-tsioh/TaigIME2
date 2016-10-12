@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fr.magistry.taigime2.CustomKeyboardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/keyboard_background"
+        android:keyBackground="@drawable/key"
+        android:keyTextColor="@color/colorWhite"
+      />

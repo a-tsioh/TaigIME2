@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="KeyboardLatin">0</integer>
+    <integer name="KeyboardTsuimInitials">1</integer>
+    <integer name="KeyboardTsuimFinals">2</integer>
+    <integer name="KeyboardSymbols">3</integer>
+    <integer name="KbdConfigView">4</integer>
+    <integer name="KbdDictView">5</integer>
+    <integer name="KbdLoadingData">6</integer>
+    <integer name="KeySwapTsuIm">-12</integer>
+</resources>
